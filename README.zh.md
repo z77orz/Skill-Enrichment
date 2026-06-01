@@ -2,7 +2,7 @@
 
 > English version: [README.md](./README.md)
 
-一个 Claude Code / Claude.ai 技能，将论文 [EmbodiSkill (Ju et al., 2026)](https://arxiv.org/abs/2605.10332v1) 的"四类技能感知反思"框架工程化。
+一个 Claude Code 技能，将论文 [EmbodiSkill (Ju et al., 2026)](https://arxiv.org/abs/2605.10332v1) 的"四类技能感知反思"框架工程化。
 
 每完成一个**程序性任务**后（指应用了某个具名 skill、流程或多步程序、其结果依赖中间步骤的任务），本技能强制 agent 把"刚才发生了什么"归入四种类型之一，并对底层 skill 做出**有针对性的、非破坏性的**修订 —— 绝不整体重写。
 
@@ -42,7 +42,7 @@ git clone https://github.com/z77orz/skill-aware-reflection.git \
     ~/.claude/skills/skill-aware-reflection
 ```
 
-放置在 `~/.claude/skills/` 下后，Claude Code / Claude.ai 会自动发现并按 description 触发。
+放置在 `~/.claude/skills/` 下后，Claude Code  会自动发现并按 description 触发。
 
 ## 仓库结构
 
