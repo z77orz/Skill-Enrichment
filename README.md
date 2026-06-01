@@ -1,5 +1,7 @@
 # Skill-Aware Reflection
 
+> 中文版：[README.zh.md](./README.zh.md)
+
 A Claude Code / Claude.ai skill that operationalizes the four-type skill-aware reflection framework from [EmbodiSkill (Ju et al., 2026)](https://arxiv.org/abs/2605.10332v1).
 
 After a non-trivial task finishes, this skill forces the agent to classify what happened into one of four types and produce a targeted, non-destructive revision of the underlying skill — never a coarse whole-skill rewrite.
