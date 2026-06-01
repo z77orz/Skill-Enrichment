@@ -1,4 +1,23 @@
-# Examples: Skill-Aware Reflection
+# Examples: 丰容 (Skill Enrichment)
+
+> *formerly Skill-Aware Reflection — see [SKILL.md - Academic Attribution](./SKILL.md#-academic-attribution) for source framework*
+
+> ## 📑 原创性声明 (Originality Notice)
+>
+> 以下 **6 个 examples 均为本仓库原创**,与论文 EmbodiSkill (Ju et al., 2026, arXiv:2605.10332) **无直接对应关系**。
+>
+> | Example | 论文来源 | 本仓库版本 |
+> |---|---|---|
+> | 1 — DISCOVERY (PDF OCR 兜底) | ❌ 论文无 | ✅ 原创 |
+> | 2 — OPTIMIZATION (12 类合同风险) | ❌ 论文无 | ✅ 原创 |
+> | 3 — SKILL_DEFECT (飞书域名迁移) | ❌ 论文无 | ✅ 原创 |
+> | 4 — EXECUTION_LAPSE (日志跳过 Read) | ❌ 论文无 | ✅ 原创 |
+> | 5 — NONE (mermaid ER 图) | ❌ 论文无 | ✅ 原创 |
+> | 6 — 边界案例 (API 500) | ❌ 论文无 | ✅ 原创 |
+>
+> 论文 Section 3.2.1 / Figure 1 中的"冰水/热水"等 embodied agent 案例**未被复用**到本文件。所有 examples 均使用 Claude Code 工具链语境 (Read / Bash / Skill),旨在演示本 skill 在 Claude Code 环境下的实际应用。
+>
+> 如读者熟悉 EmbodiSkill 论文,可清晰看到:examples 仅复用了**论文的四类框架与字段定义**(属于方法论层,不受著作权保护),所有**具体情节、领域选择、错误样例均为本仓库独立创作**。
 
 Each example shows a full reflection record for one of the four types. Use these as templates — fill in your own `b_i` quote, evidence, and directive.
 

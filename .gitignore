@@ -16,5 +16,5 @@ __pycache__/
 # Local-only artifacts (do not commit)
 # Re-run the validation pipeline to regenerate:
 #   python3 grade.py
-#   python3 scripts/aggregate_benchmark.py . --skill-name skill-aware-reflection
+#   python3 scripts/aggregate_benchmark.py . --skill-name skill-enrichment
 *~

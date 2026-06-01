@@ -1,15 +1,57 @@
 ---
-name: skill-aware-reflection
-description: Use when a procedural task has just finished — one that required applying a named skill, method, or multi-step procedure whose outcome depends on intermediate steps and is evaluable — and the agent needs to decide whether the procedure it used is fine, inefficient, defective, or merely not followed. Produces a typed reflection record (Discovery, Optimization, SkillDefect, ExecutionLapse) that drives targeted, non-destructive skill revision.
+name: skill-enrichment
+description: Use when a procedural task has just finished — one that required applying a named skill, method, or multi-step procedure whose outcome depends on intermediate steps and is evaluable — and the agent needs to decide whether the procedure it used is fine, inefficient, defective, or merely not followed. Produces a typed reflection record (Discovery, Optimization, SkillDefect, ExecutionLapse) that drives targeted, non-destructive skill revision. (丰容 / Skill Enrichment — formerly known as Skill-Aware Reflection.)
 ---
 
-# Skill-Aware Reflection
+# 丰容 (Skill Enrichment)
+
+> 命名源自动物福利科学"环境丰容 (Environmental Enrichment)"——在圈养条件下,通过为动物提供多样化的环境刺激,满足其生理与心理需求,促进自然行为的展示,并减少刻板行为。本项目借用此概念,**让每一条任务轨迹都成为技能成熟的"营养"**。
+
+> *formerly Skill-Aware Reflection — an EmbodiSkill port for Claude Code (Ju et al., 2026, arXiv:2605.10332)*
+>
+> *完整命名介绍见 [README.zh.md - 关于命名](./README.zh.md#关于命名) (中文) / [README.md - On the Name](./README.md#on-the-name) (English)*
+
+> ## 📑 学术来源声明 (Attribution)
+>
+> **本 skill 是论文 [EmbodiSkill (Ju et al., 2026, arXiv:2605.10332)](https://arxiv.org/abs/2605.10332v1) 的工程化移植**,并非独立原创方法。
+>
+> ### 源论文
+>
+> ```
+> @misc{ju2026embodiskill,
+>   title        = {EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents},
+>   author       = {Ju, Ruofei and Wang, Xinrui and Ding, Xin and Yang, Yifan and Wu, Hao and Jiang, Shiqi and Zhang, Qianxi and Wen, Hao and Li, Xiangyu and Wang, Meijun and Li, Kun and Liu, Yunxin and Dai, Haipeng and Wang, Wei and Cao, Ting},
+>   year         = {2026},
+>   eprint       = {2605.10332},
+>   archivePrefix= {arXiv},
+>   primaryClass = {cs.AI},
+>   note         = {Corresponding author: Cao, Ting (tingcao@mail.tsinghua.edu.cn)}
+> }
+> ```
+>
+> **正文引用形式**:`Ju et al. (2026, arXiv:2605.10332)` —— 预印本无期刊 DOI,arXiv ID 是唯一永久标识符,必须带上。
+>
+> ### 本仓库的边界
+>
+> | 来源 | 内容 |
+> |---|---|
+> | **直接来自论文** | 四类反思框架(Discovery/Optimization/SkillDefect/ExecutionLapse)、`S = (S_body, S_app)` 结构、反思记录字段(`type`/`evidence`/`b_i`/`directive`)、分类逻辑(成功路径/失败路径)、`literal comparison` 思路 |
+> | **本仓库的工程化贡献** | (1) graphviz 决策树(将论文决策表结构化);(2) Discipline/Anti-patterns 表、Red Flags、Common Mistakes、Self-Test 等运维检查项;(3) Quick Algorithm 伪代码(论文 Algorithm 1 的紧凑重写);(4) 6 个基于 Claude Code 工具链的原创 examples(论文中的冰水/热水示例**未被复用**);(5) reflection-record 模板与提交规范 |
+> | **应用领域转换** | 论文:embodied agents (ALFWorld/EmbodiedBench) → 本 skill:Claude Code 程序性 skill 场景 |
+>
+> ### 概念对应表(完整版)
+>
+> 见 [README.zh.md - 与 EmbodiSkill 论文的对应](./README.zh.md#与-embodiskill-论文的对应)
+>
+> ---
+>
+> **使用本 skill 即视为接受**:核心方法论归属论文作者;若在学术或商业场景中引用本 skill,需同时引用 EmbodiSkill 原论文。
 
 ## Overview
 
 After a procedural task (one that applied a named skill, method, or multi-step procedure), do **not** rewrite the whole skill. Instead, classify what actually happened into one of four reflection types, target a specific `b_i` (skill paragraph), and choose a discrete directive. This is "skill-aware" because every reflection is anchored to the **current** skill text — never to the whole skill at once.
 
-The four types come from EmbodiSkill (Ju et al., 2026). They partition the space cleanly:
+The four types come from EmbodiSkill (Ju et al., 2026, arXiv:2605.10332). They partition the space cleanly:
 
 - **Success + new capability absent from skill** → Discovery
 - **Success + existing paragraph can be done better** → Optimization
