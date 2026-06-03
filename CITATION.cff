@@ -1,13 +1,4 @@
-# Citation File Format for Skill-Enrichment
-# 详细规范: https://citation-file-format.github.io/
-
 cff-version: 1.2.0
-message: >-
-  If you use this skill in research, please cite BOTH this repository
-  AND the original EmbodiSkill paper. The core methodology (4-type
-  reflection framework, S = (S_body, S_app) structure, classification
-  logic) is from the paper; this repository's contribution is the
-  engineering implementation and domain transfer to Claude Code skills.
 title: "丰容 (Skill Enrichment)"
 type: software
 license: MIT
@@ -20,19 +11,12 @@ keywords:
   - skill-reflection
   - procedural-task
   - self-evolution
-  - embodied-skill
-  - skill-aware
 authors:
-  - family-names: "z77orz"
-    given-names: ""
-    alias: "z77orz"
+  - alias: "z77orz"
     affiliation: "Independent"
 date-released: "2026-06-01"
 version: "1.0.0"
 
-# ──────────────────────────────────────────────────────────────
-# 首选引用:原始论文 (这是必须引用的,本仓库的工程化基础)
-# ──────────────────────────────────────────────────────────────
 preferred-citation:
   type: article
   title: "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents"
@@ -69,19 +53,3 @@ preferred-citation:
       given-names: "Ting"
   journal: "arXiv preprint arXiv:2605.10332"
   year: 2026
-
-# ──────────────────────────────────────────────────────────────
-# 引用本仓库的 BibTeX 格式 (可选,用于直接复用本工程化)
-# ──────────────────────────────────────────────────────────────
-references:
-  - type: software
-    title: "丰容 / Skill Enrichment (formerly Skill-Aware Reflection — Claude Code skill, engineering port of EmbodiSkill)"
-    authors:
-      - alias: "z77orz"
-    date-released: "2026-06-01"
-    url: "https://github.com/z77orz/Skill-Enrichment"
-    notes: >-
-      An operationalization of EmbodiSkill (Ju et al., 2026, arXiv:2605.10332)
-      for Claude Code agent skills. Includes a Graphviz decision tree,
-      anti-patterns table, self-test checklist, and 6 original worked
-      examples in the Claude Code toolchain. MIT licensed.

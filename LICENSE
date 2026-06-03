@@ -12,23 +12,6 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
----
-
-## 学术来源声明 (Academic Attribution)
-
-本软件 (丰容 / Skill Enrichment, formerly Skill-Aware Reflection) 工程化自以下论文:
-
-  Ju, Ruofei, Wang, Xinrui, Ding, Xin, Yang, Yifan, Wu, Hao, Jiang, Shiqi,
-  Zhang, Qianxi, Wen, Hao, Li, Xiangyu, Wang, Meijun, Li, Kun, Liu, Yunxin,
-  Dai, Haipeng, Wang, Wei, and Cao, Ting. 2026.
-  "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents."
-  arXiv preprint arXiv:2605.10332.
-
-核心方法论 (四类反思框架、S = (S_body, S_app) 结构、分类逻辑)
-由上述论文作者提出,本仓库的贡献在于工程化实现与领域应用转换。
-
----
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
