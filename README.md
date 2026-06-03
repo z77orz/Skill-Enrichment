@@ -45,9 +45,17 @@
 <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/card-en-3.svg" alt="Outcome" height="32"/><br/>
 <i>Maturation · 0 → 1</i>
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-cast-banner.svg" alt="Field Guide cast" width="360"/>
+
 </td>
 </tr>
 </table>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-cast-banner.svg" alt="Field Guide cast" width="360"/>
 
 </div>
 
@@ -135,25 +143,25 @@ After a **procedural task** finishes — one that applied a named skill, method,
 <th width="22%">Modifies</th>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-discovery.svg" alt="Discovery 发现" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-discovery.svg" alt="Discovery 发现" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-fox.svg" alt="fox" width="48" align="absmiddle"/></td>
 <td>Success + new capability the skill doesn't cover</td>
 <td>Record new skill seed</td>
 <td><code>S_body</code> (append)</td>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-optimization.svg" alt="Optimization 优化" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-optimization.svg" alt="Optimization 优化" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-bird.svg" alt="bird" width="48" align="absmiddle"/></td>
 <td>Success + an existing paragraph has a better form</td>
 <td>Replace or complete the targeted paragraph</td>
 <td><code>S_body</code> (replace / complete)</td>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-skilldefect.svg" alt="SkillDefect 技能缺陷" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-skilldefect.svg" alt="SkillDefect 技能缺陷" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-tree.svg" alt="tree" width="48" align="absmiddle"/></td>
 <td>Failure + the paragraph is wrong, incomplete, or underspecified</td>
 <td>Replace or complete the targeted paragraph</td>
 <td><code>S_body</code> (replace / complete)</td>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-executionlapse.svg" alt="ExecutionLapse 执行偏差" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-executionlapse.svg" alt="ExecutionLapse 执行偏差" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-octopus.svg" alt="octopus" width="48" align="absmiddle"/></td>
 <td>Failure + paragraph is valid but the agent did not follow it</td>
 <td>Append a reminder to the execution appendix</td>
 <td><code>S_app</code> <b>only</b> — never <code>S_body</code></td>

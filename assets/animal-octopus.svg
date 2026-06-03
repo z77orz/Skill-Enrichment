@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+  <!-- Head (rounded mantle) -->
+  <ellipse cx="50" cy="40" rx="28" ry="22" fill="#3F5D3A"/>
+  <!-- Two eye highlights -->
+  <circle cx="42" cy="38" r="2.5" fill="#F4EFE6"/>
+  <circle cx="58" cy="38" r="2.5" fill="#F4EFE6"/>
+  <!-- 8 arms (wavy tentacles) -->
+  <path d="M 26 56 Q 14 64 12 78 Q 16 84 22 80 Q 24 70 32 64" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 30 60 Q 22 76 28 90 Q 34 88 32 78" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 38 62 Q 36 78 40 92" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 46 64 Q 48 80 50 92" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 54 64 Q 52 80 50 92" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 62 62 Q 64 78 60 92" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 70 60 Q 78 76 72 90 Q 66 88 68 78" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 74 56 Q 86 64 88 78 Q 84 84 78 80 Q 76 70 68 64" fill="none" stroke="#3F5D3A" stroke-width="4" stroke-linecap="round"/>
+</svg>

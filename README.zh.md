@@ -45,6 +45,10 @@
 <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/card-zh-3.svg" alt="终局" height="32"/><br/>
 <i>成熟化 · 0 → 1</i>
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-cast-banner.svg" alt="Field Guide cast" width="360"/>
+
 </td>
 </tr>
 </table>
@@ -135,25 +139,25 @@
 <th width="22%">修改对象</th>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-discovery.svg" alt="Discovery 发现" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-discovery.svg" alt="Discovery 发现" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-fox.svg" alt="fox" width="48" align="absmiddle"/></td>
 <td>成功 + 出现 skill 未覆盖的新能力</td>
 <td>记录新 skill 种子</td>
 <td><code>S_body</code>(追加)</td>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-optimization.svg" alt="Optimization 优化" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-optimization.svg" alt="Optimization 优化" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-bird.svg" alt="bird" width="48" align="absmiddle"/></td>
 <td>成功 + 现有段落有更优形式</td>
 <td>替换或补全目标段落</td>
 <td><code>S_body</code>(替换/补全)</td>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-skilldefect.svg" alt="SkillDefect 技能缺陷" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-skilldefect.svg" alt="SkillDefect 技能缺陷" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-tree.svg" alt="tree" width="48" align="absmiddle"/></td>
 <td>失败 + 段落本身错误、不完整或未明确</td>
 <td>替换或补全目标段落</td>
 <td><code>S_body</code>(替换/补全)</td>
 </tr>
 <tr>
-<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-executionlapse.svg" alt="ExecutionLapse 执行偏差" height="28"/></td>
+<td><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-executionlapse.svg" alt="ExecutionLapse 执行偏差" height="28"/> <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-octopus.svg" alt="octopus" width="48" align="absmiddle"/></td>
 <td>失败 + 段落没问题,但 agent 没遵守</td>
 <td>往执行附录追加提醒</td>
 <td>仅 <code>S_app</code>——<b>绝不</b>碰 <code>S_body</code></td>
