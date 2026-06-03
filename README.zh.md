@@ -26,7 +26,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=3F5D3A&center=true&vCenter=true&multiline=true&width=600&height=120&lines=%E5%9C%A8+Claude+Code+%E9%87%8C%EF%BC%8Cagent+%E6%98%AF%E5%9B%AD%E5%8C%BB%EF%BC%8Cskill+%E6%98%AF%E8%A2%AB%E5%9B%AD%E5%AE%B9%E8%80%85%EF%BC%9C;%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%E6%98%AF%E8%90%A5%E5%85%BB%EF%BC%8C%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%AE%83;skill+%E6%88%90%E7%86%9F%E7%9A%84%E4%B8%80%E9%A4%90" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=3F5D3A&center=true&vCenter=true&multiline=true&width=720&height=130&lines=%E5%9C%A8+Claude+Code+%E9%87%8C%EF%BC%8Cagent+%E6%98%AF%E5%9B%AD%E5%8C%BB%EF%BC%8Cskill+%E6%98%AF%E8%A2%AB%E5%9B%AD%E5%AE%B9%E8%80%85%EF%BC%9C;%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%E6%98%AF%E8%90%A5%E5%85%BB%EF%BC%8C%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%AE%83;skill+%E6%88%90%E7%86%9F%E7%9A%84%E4%B8%80%E9%A4%90" alt="Typing SVG"/>
 
 <br/>
 
@@ -52,14 +52,6 @@
 </td>
 </tr>
 </table>
-
-<br/>
-
-```text
-> 在圈养环境里,园丁的手艺是丰容。
-> 在 Claude Code 里,这个园丁是 agent,被丰容者是 skill,
-> 而任务轨迹,就是那一餐。
-```
 
 </div>
 
@@ -513,7 +505,7 @@ Skill-Enrichment/
 ---
 
 <!-- ============================================================
-     SECTION 12 · 仓库统计
+     SECTION 12 · 仓库活跃度
      ============================================================ -->
 <div align="center">
 
@@ -521,7 +513,11 @@ Skill-Enrichment/
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=z77orz&repo=Skill-Enrichment&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&count_private=true&bg_color=FAF7F0&title_color=3F5D3A&icon_color=A3541E&text_color=1F1B16" alt="仓库统计" width="48%"/>
+<font color="#3F5D3A"><b>⟐ 仓库活跃度</b></font>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=z77orz&theme=github-compact&hide_border=true&area=true&bg_color=FAF7F0&color=3F5D3A&line=A3541E&point=A87C2C&hide_title=false" alt="活跃度图" width="92%"/>
 
 </div>
 

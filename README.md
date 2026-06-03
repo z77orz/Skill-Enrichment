@@ -30,7 +30,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=3F5D3A&center=true&vCenter=true&multiline=true&width=600&height=120&lines=In+Claude+Code%2C+the+agent+is+the+keeper%2C+the+skill+is+the+captive%3B;the+trajectory+is+the+nourishment%2C+the+meal;that+makes+the+skill+mature" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=3F5D3A&center=true&vCenter=true&multiline=true&width=720&height=140&lines=In+Claude+Code%2C+the+agent+is+the+keeper%2C+the+skill+is+the+captive%3B;the+trajectory+is+the+nourishment%2C+the+meal;that+makes+the+skill+mature" alt="Typing SVG"/>
 
 <br/>
 
@@ -56,14 +56,6 @@
 </td>
 </tr>
 </table>
-
-<br/>
-
-```text
-> In captive settings, the keeper's craft is enrichment.
-> In Claude Code, this keeper is the agent, this captive is the skill,
-> and the trajectory is the meal.
-```
 
 </div>
 
@@ -499,7 +491,7 @@ The arXiv ID is included in the in-text form because this is a preprint without 
 ---
 
 <!-- ============================================================
-     SECTION 11 · Repository stats
+     SECTION 11 · Repository activity
      ============================================================ -->
 <div align="center">
 
@@ -507,7 +499,11 @@ The arXiv ID is included in the in-text form because this is a preprint without 
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=z77orz&repo=Skill-Enrichment&show_icons=true&theme=default&hide_rank=true&include_all_commits=true&count_private=true&bg_color=FAF7F0&title_color=3F5D3A&icon_color=A3541E&text_color=1F1B16" alt="Repo stats" width="48%"/>
+<font color="#3F5D3A"><b>⟐ Repository activity</b></font>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=z77orz&theme=github-compact&hide_border=true&area=true&bg_color=FAF7F0&color=3F5D3A&line=A3541E&point=A87C2C&hide_title=false" alt="Activity graph" width="92%"/>
 
 </div>
 
