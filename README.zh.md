@@ -22,7 +22,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=18&duration=2000&pause=300&color=3F5D3A&center=false&vCenter=true&multiline=true&width=900&height=140&repeat=false&lines=%E5%9C%A8%E5%9C%88%E5%85%BB%E7%8E%AF%E5%A2%83%E9%87%8C%2C%E5%9B%AD%E4%B8%81%E7%9A%84%E6%89%8B%E8%89%BA%E6%98%AF%E4%B8%B0%E5%AE%B9%E3%80%82;%E5%9C%A8%20Claude%20Code%20%E9%87%8C%2C%E8%BF%99%E4%B8%AA%E5%9B%AD%E4%B8%81%E6%98%AF%20agent%2C%E8%A2%AB%E4%B8%B0%E5%AE%B9%E8%80%85%E6%98%AF%20skill%2C;%E8%80%8C%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%2C%E5%B0%B1%E6%98%AF%E9%82%A3%E4%B8%80%E9%A4%90%E3%80%82" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=18&duration=2000&pause=300&color=3F5D3A&center=false&vCenter=true&multiline=true&width=900&height=140&repeat=false&lines=%E5%9C%A8%20Claude%20Code%20%E9%87%8C%2C;agent%20%E6%98%AF%E5%9B%AD%E4%B8%81%2Cskill%20%E6%98%AF%E8%A2%AB%E4%B8%B0%E5%AE%B9%E8%80%85%3B;%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%E6%98%AF%E8%90%A5%E5%85%BB%2C%E8%AE%A9%20skill%20%E6%88%90%E7%86%9F%E7%9A%84%E9%82%A3%E4%B8%80%E9%A4%90%E3%80%82" alt="Typing SVG"/>
 
 <br/>
 
