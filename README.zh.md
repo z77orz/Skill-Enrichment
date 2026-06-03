@@ -11,7 +11,7 @@
      ============================================================ -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h1.svg" alt="丰容 Skill Enrichment" height="64"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h1.svg" alt="丰容 Skill Enrichment" height="110"/>
 
 <br/>
 
@@ -53,7 +53,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-xue-ming-ka.svg" alt="学名卡" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-xue-ming-ka.svg" alt="学名卡" height="42"/>
 
 <table>
 <tr><th align="left" width="22%">字段</th><th align="left">内容</th></tr>
@@ -73,7 +73,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-guan-yu-ming-ming.svg" alt="关于命名" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-guan-yu-ming-ming.svg" alt="关于命名" height="42"/>
 
 > *在动物福利科学中,**环境丰容(Environmental Enrichment)** 是一种实践——为圈养动物提供多样化、具有生物学意义的环境刺激,满足其生理与心理需求,促进行为表达的自然化,减少刻板行为。*
 >
@@ -119,7 +119,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-gong-zuo-ji-zhi.svg" alt="工作机制" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-gong-zuo-ji-zhi.svg" alt="工作机制" height="42"/>
 
 每完成一个**程序性任务**后(指应用了某个具名 skill、流程或多步程序、其结果依赖中间步骤的任务),本技能强制 agent 把"刚才发生了什么"归入**四种类型**之一,并对底层 skill 做出**有针对性的、非破坏性的**修订——绝不整体重写。
 
@@ -135,7 +135,7 @@
 <tr><td align="center"><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-octopus.svg" alt="octopus" width="100"/></td><td align="center"><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-executionlapse.svg" alt="ExecutionLapse 执行偏差" height="64"/></td><td>失败 + 段落没问题,但 agent 没遵守</td><td>往执行附录追加提醒</td><td>仅 <code>S_app</code>——<b>绝不</b>碰 <code>S_body</code></td></tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-yi-wen-pan-ding.svg" alt="一问判定" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-yi-wen-pan-ding.svg" alt="一问判定" height="42"/>
 
 > *"如果 agent 严格按段落执行,任务会成功吗?"*
 >
@@ -146,7 +146,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-hermes-xu-qiu.svg" alt="与 hermes-agent 的需求差异" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-hermes-xu-qiu.svg" alt="与 hermes-agent 的需求差异" height="42"/>
 
 > *回应常见疑问:丰容与 hermes-agent 有何不同?*
 > *答:**两者不是竞品**——面向不同用户、不同需求。*
@@ -198,7 +198,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-embodi-dui-ying.svg" alt="与 EmbodiSkill 论文的对应" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-embodi-dui-ying.svg" alt="与 EmbodiSkill 论文的对应" height="42"/>
 
 > **重要**:本技能是论文 EmbodiSkill 的工程化移植,而非独立原创。核心方法论归属原论文。
 
@@ -219,7 +219,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-an-zhuang.svg" alt="安装" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-an-zhuang.svg" alt="安装" height="42"/>
 
 ```bash
 # 方式一:解压打包好的 .skill 文件
@@ -234,7 +234,7 @@ git clone https://github.com/z77orz/Skill-Enrichment.git \
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-cang-ku-jie-gou.svg" alt="仓库结构" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-cang-ku-jie-gou.svg" alt="仓库结构" height="42"/>
 
 ```text
 Skill-Enrichment/
@@ -255,7 +255,7 @@ Skill-Enrichment/
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-yan-zheng.svg" alt="验证" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-yan-zheng.svg" alt="验证" height="42"/>
 
 针对 4 个 benchmark 评估运行。
 
@@ -271,7 +271,7 @@ Skill-Enrichment/
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-yin-yong.svg" alt="引用" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-yin-yong.svg" alt="引用" height="42"/>
 
 如果在研究或撰写论文时使用了本 skill,请同时引用原始 EmbodiSkill 论文(arXiv 预印本,尚未经过同行评审):
 
@@ -295,7 +295,7 @@ Skill-Enrichment/
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-xu-ke.svg" alt="许可" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-xu-ke.svg" alt="许可" height="42"/>
 
 `MIT`——见 [`LICENSE`](./LICENSE)。MIT 许可适用于本工程化移植;底层方法论仍归 EmbodiSkill 论文作者所有。
 
@@ -321,7 +321,7 @@ Skill-Enrichment/
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="24"/> 本 README 采用 <i>Field Guide</i>(园丁手记)美学——向 19 世纪博物学家野外图鉴传统致敬。<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="24"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="40"/> 本 README 采用 <i>Field Guide</i>(园丁手记)美学——向 19 世纪博物学家野外图鉴传统致敬。<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="40"/>
 
 <br/>
 

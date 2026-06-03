@@ -11,7 +11,7 @@
      ============================================================ -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h1.svg" alt="丰容 Skill Enrichment" height="64"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h1.svg" alt="丰容 Skill Enrichment" height="110"/>
 
 <br/>
 
@@ -53,7 +53,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-specimen-card.svg" alt="Specimen Card" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-specimen-card.svg" alt="Specimen Card" height="42"/>
 
 <table>
 <tr><th align="left" width="22%">Field</th><th align="left">Value</th></tr>
@@ -73,7 +73,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-on-the-name.svg" alt="On the Name" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-on-the-name.svg" alt="On the Name" height="42"/>
 
 > *In the animal-welfare sciences, **environmental enrichment** is the practice of providing captive animals with diverse, biologically meaningful stimuli — to satisfy their physiological and psychological needs, promote natural behavior, and reduce stereotypy.*
 >
@@ -119,7 +119,7 @@ The metaphor is not decoration — it is the project's organizing principle:
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-how-it-works.svg" alt="How It Works" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-how-it-works.svg" alt="How It Works" height="42"/>
 
 After a **procedural task** finishes — one that applied a named skill, method, or multi-step procedure whose outcome depends on intermediate steps — this skill forces the agent to classify what happened into one of **four types** and produce a targeted, non-destructive revision of the underlying skill.
 
@@ -135,7 +135,7 @@ After a **procedural task** finishes — one that applied a named skill, method,
 <tr><td align="center"><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/animal-octopus.svg" alt="octopus" width="100"/></td><td align="center"><img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/chip-executionlapse.svg" alt="ExecutionLapse 执行偏差" height="64"/></td><td>Failure + paragraph is valid but the agent did not follow it</td><td>Append a reminder to the execution appendix</td><td><code>S_app</code> <b>only</b> — never <code>S_body</code></td></tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-one-question-test.svg" alt="The One-Question Test" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-one-question-test.svg" alt="The One-Question Test" height="42"/>
 
 > *"If the agent had followed the paragraph to the letter, would the task have succeeded?"*
 >
@@ -146,7 +146,7 @@ After a **procedural task** finishes — one that applied a named skill, method,
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-differentiation-hermes.svg" alt="Differentiation" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-differentiation-hermes.svg" alt="Differentiation" height="42"/>
 
 > *Common question: how does this differ from hermes-agent?*
 > *Short answer: **they are not competitors** — they target different users and different needs.*
@@ -199,7 +199,7 @@ Are you mainly a Claude Code user?
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-installation.svg" alt="Installation" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-installation.svg" alt="Installation" height="42"/>
 
 ```bash
 # Option 1 — Unzip the packaged .skill file
@@ -214,7 +214,7 @@ The skill is auto-discovered by Claude Code once placed under `~/.claude/skills/
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-repository-layout.svg" alt="Repository Layout" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-repository-layout.svg" alt="Repository Layout" height="42"/>
 
 ```text
 Skill-Enrichment/
@@ -236,7 +236,7 @@ Skill-Enrichment/
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-validation.svg" alt="Validation" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-validation.svg" alt="Validation" height="42"/>
 
 The skill was validated against 4 benchmark evals.
 
@@ -252,7 +252,7 @@ To reproduce: see `~/.claude/skills/skill-aware-reflection-workspace/` (a siblin
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-citation.svg" alt="Citation" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-citation.svg" alt="Citation" height="42"/>
 
 If you use this skill in research or write a paper that benefits from the underlying framework, please cite the original EmbodiSkill paper (arXiv preprint, not yet peer-reviewed):
 
@@ -276,7 +276,7 @@ The arXiv ID is included in the in-text form because this is a preprint without 
 
 ---
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-license.svg" alt="License" height="40"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-license.svg" alt="License" height="42"/>
 
 `MIT` — see [`LICENSE`](./LICENSE). The MIT notice covers this engineering port; the underlying methodology remains that of the EmbodiSkill authors.
 
@@ -290,7 +290,7 @@ The arXiv ID is included in the in-text form because this is a preprint without 
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-repository-activity.svg" alt="Repository activity" height="32"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-repository-activity.svg" alt="Repository activity" height="42"/>
 
 <br/>
 
@@ -302,7 +302,7 @@ The arXiv ID is included in the in-text form because this is a preprint without 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="24"/> This README follows the <i>Field Guide</i> aesthetic — a tribute to the 19th-century practice of natural-history field guides. <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="24"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="40"/> This README follows the <i>Field Guide</i> aesthetic — a tribute to the 19th-century practice of natural-history field guides. <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/footer-star-moss.svg" alt="✦" height="40"/>
 
 <br/>
 
