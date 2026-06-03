@@ -11,7 +11,7 @@
      ============================================================ -->
 <div align="center">
 
-# ✦ <font color="#A87C2C">丰容</font> (Skill Enrichment) ✦
+# ✦ <img src="https://img.shields.io/badge/丰容-Skill%20Enrichment-A87C2C?style=for-the-badge&logoColor=A87C2C" alt="丰容" height="42"/> ✦
 
 ### *园丁手记:Claude Code 程序性 skill 的成熟化指南*
 
@@ -26,7 +26,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=3F5D3A&center=true&vCenter=true&multiline=true&width=720&height=130&lines=%E5%9C%A8+Claude+Code+%E9%87%8C%EF%BC%8Cagent+%E6%98%AF%E5%9B%AD%E5%8C%BB%EF%BC%8Cskill+%E6%98%AF%E8%A2%AB%E5%9B%AD%E5%AE%B9%E8%80%85%EF%BC%9C;%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%E6%98%AF%E8%90%A5%E5%85%BB%EF%BC%8C%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%AE%83;skill+%E6%88%90%E7%86%9F%E7%9A%84%E4%B8%80%E9%A4%90" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=3F5D3A&center=false&vCenter=true&multiline=true&width=900&height=140&lines=%E5%9C%A8%E5%9C%88%E5%85%BB%E7%8E%AF%E5%A2%83%E9%87%8C%2C%E5%9B%AD%E4%B8%81%E7%9A%84%E6%89%8B%E8%89%BA%E6%98%AF%E4%B8%B0%E5%AE%B9%E3%80%82;%E5%9C%A8%20Claude%20Code%20%E9%87%8C%2C%E8%BF%99%E4%B8%AA%E5%9B%AD%E4%B8%81%E6%98%AF%20agent%2C%E8%A2%AB%E4%B8%B0%E5%AE%B9%E8%80%85%E6%98%AF%20skill%2C;%E8%80%8C%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%2C%E5%B0%B1%E6%98%AF%E9%82%A3%E4%B8%80%E9%A4%90%E3%80%82" alt="Typing SVG"/>
 
 <br/>
 
@@ -60,7 +60,7 @@
 <!-- ============================================================
      SECTION 1 · 学名卡 / 物种介绍
      ============================================================ -->
-## <font color="#3F5D3A">⟐</font> 学名卡
+## <img src="https://img.shields.io/badge/⟐-学名卡-3F5D3A?style=for-the-badge&logoColor=3F5D3A" alt="学名卡" height="28"/>
 
 <table>
 <tr>
@@ -110,7 +110,7 @@
 <!-- ============================================================
      SECTION 2 · 命名志 / 关于命名
      ============================================================ -->
-## <font color="#3F5D3A">✦</font> 关于命名
+## <img src="https://img.shields.io/badge/✦-关于命名-3F5D3A?style=for-the-badge&logoColor=3F5D3A" alt="关于命名" height="28"/>
 
 > *在动物福利科学中,**环境丰容(Environmental Enrichment)** 是一种实践——为圈养动物提供多样化、具有生物学意义的环境刺激,满足其生理与心理需求,促进行为表达的自然化,减少刻板行为。*
 >
@@ -164,7 +164,7 @@
 <!-- ============================================================
      SECTION 4 · 工作机制 / 四类反思
      ============================================================ -->
-## <font color="#3F5D3A">⟐</font> 工作机制
+## <img src="https://img.shields.io/badge/⟐-工作机制-3F5D3A?style=for-the-badge&logoColor=3F5D3A" alt="工作机制" height="28"/>
 
 每完成一个**程序性任务**后(指应用了某个具名 skill、流程或多步程序、其结果依赖中间步骤的任务),本技能强制 agent 把"刚才发生了什么"归入**四种类型**之一,并对底层 skill 做出**有针对性的、非破坏性的**修订——绝不整体重写。
 

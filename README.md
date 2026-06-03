@@ -15,7 +15,7 @@
      但 <link> 标签可以引导用户浏览器解析 head 注入,
      这里改成在 README 顶部用注释给出,避免渲染警告 -->
 
-# ✦ <font color="#A87C2C">丰容</font> (Skill Enrichment) ✦
+# ✦ <img src="https://img.shields.io/badge/丰容-Skill%20Enrichment-A87C2C?style=for-the-badge&logoColor=A87C2C" alt="丰容" height="42"/> ✦
 
 ### *A Field Guide to Procedural-Skill Maturation in Claude Code*
 
@@ -30,7 +30,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=3F5D3A&center=true&vCenter=true&multiline=true&width=720&height=140&lines=In+Claude+Code%2C+the+agent+is+the+keeper%2C+the+skill+is+the+captive%3B;the+trajectory+is+the+nourishment%2C+the+meal;that+makes+the+skill+mature" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=3F5D3A&center=false&vCenter=true&multiline=true&width=900&height=140&lines=In%20Claude%20Code%2C%20the%20agent%20is%20the%20keeper%2C%20the%20skill%20is%20the%20captive%3B;the%20trajectory%20is%20the%20nourishment%2C%20the%20meal;that%20makes%20the%20skill%20mature" alt="Typing SVG"/>
 
 <br/>
 
@@ -64,7 +64,7 @@
 <!-- ============================================================
      SECTION 1 · 学名卡 / 物种介绍
      ============================================================ -->
-## <font color="#3F5D3A">⟐</font> Specimen Card
+## <img src="https://img.shields.io/badge/⟐-Specimen%20Card-3F5D3A?style=for-the-badge&logoColor=3F5D3A" alt="Specimen Card" height="28"/>
 
 <table>
 <tr>
@@ -114,7 +114,7 @@
 <!-- ============================================================
      SECTION 2 · 命名志 / Etymology
      ============================================================ -->
-## <font color="#3F5D3A">✦</font> On the Name
+## <img src="https://img.shields.io/badge/✦-On%20the%20Name-3F5D3A?style=for-the-badge&logoColor=3F5D3A" alt="On the Name" height="28"/>
 
 > *In the animal-welfare sciences, **environmental enrichment** is the practice of providing captive animals with diverse, biologically meaningful stimuli — to satisfy their physiological and psychological needs, promote natural behavior, and reduce stereotypy.*
 >
@@ -168,7 +168,7 @@ The metaphor is not decoration — it is the project's organizing principle:
 <!-- ============================================================
      SECTION 4 · 工作机制 / Mechanism
      ============================================================ -->
-## <font color="#3F5D3A">⟐</font> How It Works
+## <img src="https://img.shields.io/badge/⟐-How%20It%20Works-3F5D3A?style=for-the-badge&logoColor=3F5D3A" alt="How It Works" height="28"/>
 
 After a **procedural task** finishes — one that applied a named skill, method, or multi-step procedure whose outcome depends on intermediate steps — this skill forces the agent to classify what happened into one of **four types** and produce a targeted, non-destructive revision of the underlying skill.
 
