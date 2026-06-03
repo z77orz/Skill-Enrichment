@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130">
+  <text x="450" y="30" text-anchor="middle" font-family="'Noto Serif SC','Fira Code',serif" font-size="20" font-weight="600" fill="#3F5D3A" opacity="0">In Claude Code,<animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.3s" fill="freeze"/></text>
+<text x="450" y="66" text-anchor="middle" font-family="'Noto Serif SC','Fira Code',serif" font-size="20" font-weight="600" fill="#3F5D3A" opacity="0">the agent is the keeper, the skill is the captive;<animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.3s" fill="freeze"/></text>
+<text x="450" y="102" text-anchor="middle" font-family="'Noto Serif SC','Fira Code',serif" font-size="20" font-weight="600" fill="#3F5D3A" opacity="0">the trajectory is the nourishment, the meal that makes the skill mature.<animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.3s" fill="freeze"/></text>
+</svg>

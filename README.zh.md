@@ -22,7 +22,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=18&duration=2000&pause=300&color=3F5D3A&center=false&vCenter=true&multiline=true&width=900&height=140&repeat=false&lines=%E5%9C%A8%20Claude%20Code%20%E9%87%8C%2C;agent%20%E6%98%AF%E5%9B%AD%E4%B8%81%2Cskill%20%E6%98%AF%E8%A2%AB%E4%B8%B0%E5%AE%B9%E8%80%85%3B;%E8%80%8C%E4%BB%BB%E5%8A%A1%E8%BD%A8%E8%BF%B9%E6%98%AF%E8%90%A5%E5%85%BB%2C%E6%BB%8B%E5%85%BB%E7%9D%80%20skill" alt="Typing SVG"/>
+<img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/typing-zh.svg" alt="Typing SVG" width="900"/>
 
 <br/>
 
