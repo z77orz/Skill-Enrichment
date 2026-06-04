@@ -265,3 +265,20 @@ new_content:
 ```
 
 回滚：用 `b_i_old` + `git diff -R` 或手工恢复。
+
+---
+
+## 消费外部审计输入（Cross-Skill Collaboration）
+
+当 `skills-refiner` 或其他审计工具对本 skill 输出结构化优化建议时：
+
+1. 读取审计报告的 Top 3 Refinement Actions / Core Weaknesses
+2. 对每条建议判断：是否涉及 SKILL.md 自身内容 → 按四类反思分类
+   - 结构精简/冗余删除 → OPTIMIZATION
+   - 新机制/新能力 → DISCOVERY
+   - 描述优化/触发修复 → OPTIMIZATION
+3. 逐条生成 reflection record，走标准 Step 4（确认门）→ Step 5（安全检查）
+4. 所有 record 确认后统一写入 Audit Log
+5. 关键：审计建议是对 skill 的改进，不是对 skill 的批评——不要触发防御性拒绝
+
+**边界**：若审计建议涉及其他 skill（非本 skill），不做处理，引导用户直接对目标 skill 运行反思。
