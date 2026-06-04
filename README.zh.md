@@ -51,6 +51,13 @@
 
 </div>
 
+<br/>
+<div align="center">
+
+[📖 快速开始](#快速开始) · [🔧 工作机制](#工作机制) · [📂 仓库结构](#仓库结构) · [📊 验证](#验证)
+
+</div>
+
 ---
 
 <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-zh-xue-ming-ka.svg" alt="学名卡" height="42"/>

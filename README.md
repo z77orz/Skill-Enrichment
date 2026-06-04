@@ -51,6 +51,13 @@
 
 </div>
 
+<br/>
+<div align="center">
+
+[🚀 Quick Start](#quick-start) · [⚙️ How It Works](#how-it-works) · [📂 Repo Layout](#repository-layout) · [✅ Validation](#validation)
+
+</div>
+
 ---
 
 <img src="https://raw.githubusercontent.com/z77orz/Skill-Enrichment/master/assets/h2-en-specimen-card.svg" alt="Specimen Card" height="42"/>
